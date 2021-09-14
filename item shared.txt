@@ -1,0 +1,49 @@
+['pokemon_card'] = {
+		label = 'Pokemon Card',
+		weight = 10,
+		stack = true,
+		close = true,
+		client = {
+			event = 'rkl_cards:use',
+		}
+	},
+	 
+	['pokemon_booster'] = {
+		label = 'Booster Pack',
+		weight = 100,
+		stack = true,
+		close = true,
+		client = {
+			event = 'rkl_cards:booster',
+		}
+	},
+ 
+	['pokemon_boosterrare'] = {
+		label = 'Rare Booster Pack',
+		weight = 100,
+		stack = true,
+		close = true,
+		client = {
+			event = 'rkl_cards:boosterrare',
+		}
+	},
+
+	['pokemon_badgeopen'] = {
+		label = 'Pokemon Badge Pack',
+		weight = 100,
+		stack = true,
+		close = true,
+		client = {
+			event = 'rkl_cards:badge',
+		}
+	},
+	
+	['pokemon_badge'] = {
+		label = 'Pokemon Badge',
+		weight = 10,
+		stack = true,
+		close = true,
+		client = {
+			event = 'rkl_cards:use',
+		}
+	},
